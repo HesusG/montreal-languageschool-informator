@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "source": "SPVM open data + qualitative assessment",
+    "generatedAt": "2026-03-01"
+  },
+  "zones": [
+    {
+      "city": "montreal",
+      "neighborhood": "Le Plateau-Mont-Royal",
+      "level": 8.5,
+      "center": { "lat": 45.5225, "lng": -73.5700 },
+      "radiusMeters": 900,
+      "notes": "Zona residencial tranquila, popular entre jovenes profesionales."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Mile End",
+      "level": 8.0,
+      "center": { "lat": 45.5280, "lng": -73.5960 },
+      "radiusMeters": 700,
+      "notes": "Barrio artistico y seguro."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Outremont",
+      "level": 9.0,
+      "center": { "lat": 45.5195, "lng": -73.6050 },
+      "radiusMeters": 800,
+      "notes": "Barrio residencial muy tranquilo."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Cote-des-Neiges",
+      "level": 7.0,
+      "center": { "lat": 45.4975, "lng": -73.6190 },
+      "radiusMeters": 1000,
+      "notes": "Zona diversa, cerca de universidades. Generalmente segura."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "NDG (Notre-Dame-de-Grace)",
+      "level": 8.0,
+      "center": { "lat": 45.4740, "lng": -73.6280 },
+      "radiusMeters": 1000,
+      "notes": "Barrio familiar y tranquilo."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Centre-Ville (Downtown)",
+      "level": 6.0,
+      "center": { "lat": 45.5000, "lng": -73.5720 },
+      "radiusMeters": 1000,
+      "notes": "Zona comercial activa. Mas ruido y actividad nocturna."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Vieux-Montreal",
+      "level": 7.0,
+      "center": { "lat": 45.5060, "lng": -73.5545 },
+      "radiusMeters": 600,
+      "notes": "Zona turistica. Segura de dia, algo menos de noche."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Quartier Latin",
+      "level": 5.5,
+      "center": { "lat": 45.5140, "lng": -73.5610 },
+      "radiusMeters": 500,
+      "notes": "Zona estudiantil animada. Algo de actividad nocturna."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Rosemont-La Petite-Patrie",
+      "level": 8.5,
+      "center": { "lat": 45.5390, "lng": -73.5850 },
+      "radiusMeters": 1000,
+      "notes": "Barrio residencial muy seguro y familiar."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Hochelaga-Maisonneuve",
+      "level": 4.5,
+      "center": { "lat": 45.5375, "lng": -73.5390 },
+      "radiusMeters": 1000,
+      "notes": "Zona en gentrificacion. Precaucion de noche en algunas calles."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Villeray",
+      "level": 8.0,
+      "center": { "lat": 45.5440, "lng": -73.6120 },
+      "radiusMeters": 800,
+      "notes": "Barrio residencial seguro."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Griffintown",
+      "level": 7.5,
+      "center": { "lat": 45.4910, "lng": -73.5620 },
+      "radiusMeters": 600,
+      "notes": "Zona renovada, condominios nuevos. Segura."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Parc-Extension",
+      "level": 5.0,
+      "center": { "lat": 45.5310, "lng": -73.6210 },
+      "radiusMeters": 600,
+      "notes": "Zona diversa, economica. Algunos reportes menores."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Westmount",
+      "level": 9.5,
+      "center": { "lat": 45.4870, "lng": -73.5990 },
+      "radiusMeters": 700,
+      "notes": "Barrio residencial muy seguro."
+    },
+    {
+      "city": "montreal",
+      "neighborhood": "Verdun",
+      "level": 7.5,
+      "center": { "lat": 45.4600, "lng": -73.5720 },
+      "radiusMeters": 800,
+      "notes": "Barrio en crecimiento, cerca del rio. Seguro."
+    },
+    {
+      "city": "quebec",
+      "neighborhood": "Vieux-Quebec (Haute-Ville)",
+      "level": 8.5,
+      "center": { "lat": 46.8120, "lng": -71.2075 },
+      "radiusMeters": 500,
+      "notes": "Centro historico amurallado. Muy turistico y seguro."
+    },
+    {
+      "city": "quebec",
+      "neighborhood": "Vieux-Quebec (Basse-Ville)",
+      "level": 7.5,
+      "center": { "lat": 46.8155, "lng": -71.2010 },
+      "radiusMeters": 400,
+      "notes": "Quartier Petit Champlain. Turistico y seguro."
+    },
+    {
+      "city": "quebec",
+      "neighborhood": "Saint-Roch",
+      "level": 6.5,
+      "center": { "lat": 46.8165, "lng": -71.2200 },
+      "radiusMeters": 700,
+      "notes": "Barrio renovado, zona tech y artistica. Algo de actividad nocturna."
+    },
+    {
+      "city": "quebec",
+      "neighborhood": "Montcalm",
+      "level": 9.0,
+      "center": { "lat": 46.8040, "lng": -71.2280 },
+      "radiusMeters": 800,
+      "notes": "Barrio residencial tranquilo y seguro."
+    },
+    {
+      "city": "quebec",
+      "neighborhood": "Saint-Jean-Baptiste",
+      "level": 7.5,
+      "center": { "lat": 46.8090, "lng": -71.2185 },
+      "radiusMeters": 500,
+      "notes": "Barrio bohemio, animado pero seguro."
+    },
+    {
+      "city": "quebec",
+      "neighborhood": "Limoilou",
+      "level": 6.0,
+      "center": { "lat": 46.8260, "lng": -71.2250 },
+      "radiusMeters": 800,
+      "notes": "Zona en crecimiento. Algunos reportes menores."
+    },
+    {
+      "city": "quebec",
+      "neighborhood": "Sainte-Foy",
+      "level": 8.5,
+      "center": { "lat": 46.7800, "lng": -71.2750 },
+      "radiusMeters": 1200,
+      "notes": "Zona universitaria y residencial. Muy segura."
+    },
+    {
+      "city": "quebec",
+      "neighborhood": "Sillery",
+      "level": 9.0,
+      "center": { "lat": 46.7900, "lng": -71.2450 },
+      "radiusMeters": 700,
+      "notes": "Barrio residencial exclusivo. Muy seguro."
+    },
+    {
+      "city": "quebec",
+      "neighborhood": "Saint-Sauveur",
+      "level": 5.0,
+      "center": { "lat": 46.8140, "lng": -71.2400 },
+      "radiusMeters": 600,
+      "notes": "Barrio popular, economico. Precaucion de noche."
+    },
+    {
+      "city": "quebec",
+      "neighborhood": "Beauport",
+      "level": 8.0,
+      "center": { "lat": 46.8520, "lng": -71.1820 },
+      "radiusMeters": 1000,
+      "notes": "Zona suburbana segura y familiar."
+    }
+  ]
+}

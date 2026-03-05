@@ -1,0 +1,177 @@
+@import './variables.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: underline;
+}
+
+button {
+  font-family: var(--font-family);
+  cursor: pointer;
+  border-radius: var(--border-radius);
+}
+
+input, select {
+  font-family: var(--font-family);
+  border-radius: var(--border-radius);
+}
+
+/* App layout */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.app-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.map-wrapper {
+  flex: 1;
+  position: relative;
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  font-family: var(--font-family);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: var(--border-radius) !important;
+  border: var(--border-style) !important;
+  box-shadow: var(--shadow-default) !important;
+}
+
+.leaflet-popup-tip {
+  border: none !important;
+}
+
+/* Custom marker pins */
+.marker-pin {
+  width: 24px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.marker-pin::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  border: 2px solid var(--color-border);
+}
+
+.marker-pin--school::before {
+  background-color: #1E88E5;
+}
+
+.marker-pin--accommodation::before {
+  background-color: #8E24AA;
+}
+
+/* Toast */
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-text);
+  color: var(--color-text-inverse);
+  padding: 12px 24px;
+  border: var(--border-style);
+  box-shadow: var(--shadow-default);
+  z-index: 9999;
+  font-weight: var(--font-weight-medium);
+  animation: toast-in 0.3s ease;
+}
+
+@keyframes toast-in {
+  from { opacity: 0; transform: translateX(-50%) translateY(20px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+/* Slide panel */
+.slide-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 420px;
+  max-width: 100%;
+  height: 100%;
+  background: var(--color-bg);
+  border-left: var(--border-style);
+  box-shadow: -4px 0 0 var(--color-shadow);
+  z-index: 1000;
+  overflow-y: auto;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.slide-panel--open {
+  transform: translateX(0);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+}
+
+/* Mobile drawer */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .slide-panel {
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    height: 80%;
+    border-left: none;
+    border-top: var(--border-style);
+    transform: translateY(100%);
+  }
+
+  .slide-panel--open {
+    transform: translateY(0);
+  }
+}
