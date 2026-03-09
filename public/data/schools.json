@@ -15,8 +15,8 @@
     "durationWeeks": [1, 2, 4, 8, 12],
     "pricePerWeekCAD": 345,
     "website": "https://www.ilsc.com/language-schools/destinations/city/montreal",
-    "notes": "Escuela internacional con multiples programas de frances e ingles. Cerca de metro McGill.",
-    "lastScraped": "2026-03-07"
+    "notes": "Abierto todo el ano. Inicio cada lunes (principiantes fechas fijas). Fechas 2026 confirmadas.",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "mtl-ali",
@@ -34,8 +34,8 @@
     "durationWeeks": [1, 2, 4, 8],
     "pricePerWeekCAD": 290,
     "website": "https://studymontreal.com",
-    "notes": "Fundada en 1993. Max 16 estudiantes por clase (promedio 12). Frances e ingles.",
-    "lastScraped": "2026-03-07"
+    "notes": "Fundada en 1993. Max 16 estudiantes/clase (promedio 12). Acreditada IALC.",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "mtl-bli",
@@ -53,8 +53,8 @@
     "durationWeeks": [1, 2, 4, 8, 12],
     "pricePerWeekCAD": 315,
     "website": "https://bli.ca/bli-montreal/",
-    "notes": "Sede Montreal a 2 min de metro Place-d'Armes. Edificio patrimonial. Max 14 estudiantes/clase.",
-    "lastScraped": "2026-03-07"
+    "notes": "2 min metro Place-d'Armes. Fechas 2026 confirmadas (inicio jul 13). Max 14 estudiantes/clase.",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "mtl-alliance-francaise",
@@ -72,8 +72,8 @@
     "durationWeeks": [2, 4, 7],
     "pricePerWeekCAD": 280,
     "website": "https://www.afmontreal.ca/en/",
-    "notes": "Sesiones de 28 horas: regular (7 sem), acelerado (4 sem), intensivo (2 sem). Verano tiene formato intensivo.",
-    "lastScraped": "2026-03-07"
+    "notes": "Verano 2026: Sesion 1 (jul 6-31), Sesion 2 (ago 3-28). Intensivo y acelerado solo en verano.",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "mtl-ec",
@@ -91,18 +91,18 @@
     "durationWeeks": [1, 2, 4, 8, 12],
     "pricePerWeekCAD": 340,
     "website": "https://www.ecenglish.com/en/ecfrench",
-    "notes": "30 lecciones/semana de 45 min. Max 15 estudiantes. Frances e ingles disponibles.",
-    "lastScraped": "2026-03-07"
+    "notes": "Abierto todo el ano. General French 20/24/26/30 lecciones/semana. Frances e ingles bilingue.",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "mtl-atpal",
     "city": "montreal",
     "name": "Atpal Languages",
     "type": "private",
-    "address": "1396 Rue Sainte-Catherine O, Suite 307, Montreal, QC H3G 1P9",
+    "address": "1117 Rue Sainte-Catherine O, Suite 507, Montreal, QC H3B 1H9",
     "neighborhood": "Centre-Ville",
-    "lat": 45.4955,
-    "lng": -73.5785,
+    "lat": 45.4965,
+    "lng": -73.5730,
     "levels": ["A1", "A2", "B1", "B2"],
     "modalities": ["presencial"],
     "intensity": "intensivo",
@@ -110,27 +110,8 @@
     "durationWeeks": [4, 8, 12],
     "pricePerWeekCAD": 300,
     "website": "https://atpalcanada.com/",
-    "notes": "Metodologia patentada, 70% enfoque en hablar. Minimo 4 semanas. Acceso metro Green y Orange.",
-    "lastScraped": "2026-03-07"
-  },
-  {
-    "id": "mtl-ymca",
-    "city": "montreal",
-    "name": "YMCA International Language School",
-    "type": "private",
-    "address": "1440 Rue Stanley, Montreal, QC H3A 1P7",
-    "neighborhood": "Centre-Ville",
-    "lat": 45.5010,
-    "lng": -73.5740,
-    "levels": ["A1", "A2", "B1", "B2", "C1"],
-    "modalities": ["presencial"],
-    "intensity": "intensivo",
-    "hoursPerWeek": 25,
-    "durationWeeks": [1, 2, 4, 8],
-    "pricePerWeekCAD": 275,
-    "website": "https://www.ymcalanguages.com",
-    "notes": "Desde 1965. Programas: Intensivo (25h/sem), Semi-intensivo (15h), Enriched (10h). Tambien TFI prep.",
-    "lastScraped": "2026-03-07"
+    "notes": "Metodologia patentada, 70% hablar. Minimo 4 semanas. Fechas 2026 confirmadas (inicio jun 22).",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "mtl-udem-ecole",
@@ -148,8 +129,8 @@
     "durationWeeks": [4],
     "pricePerWeekCAD": 419,
     "website": "https://ecoledefrancais.umontreal.ca/en/programs/french-immersion-summer-school/",
-    "notes": "Inmersion de verano jul 6-31, 2026. $1,675 CAD total (45h cursos + 8h talleres conversacion).",
-    "lastScraped": "2026-03-07"
+    "notes": "Confirmado verano 2026: jul 6-31. $1,675 CAD total (45h cursos + 8h talleres conversacion).",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "mtl-mcgill-flc",
@@ -167,8 +148,8 @@
     "durationWeeks": [8],
     "pricePerWeekCAD": null,
     "website": "https://www.mcgill.ca/flc/courses-and-programs/intensive-summer-course",
-    "notes": "8 semanas, lun-jue 9am-12pm + viernes talleres. Cursos for-credit (FRSL 105/208/215/325/431).",
-    "lastScraped": "2026-03-07"
+    "notes": "8 semanas, lun-jue 9am-12pm. Cursos for-credit (FRSL 105/208/215/325/431). Activo verano 2026.",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "mtl-hec",
@@ -186,8 +167,8 @@
     "durationWeeks": [4],
     "pricePerWeekCAD": 469,
     "website": "https://francaisaffaires-immersion.hec.ca/en/",
-    "notes": "Jul 6-31, 2026. $1,875 CAD total. Frances de negocios + visitas a empresas + actividades culturales.",
-    "lastScraped": "2026-03-07"
+    "notes": "Confirmado: jul 6-31, 2026. $1,875 CAD total. Frances de negocios + visitas empresas.",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "mtl-uqam",
@@ -205,27 +186,8 @@
     "durationWeeks": [3, 6],
     "pricePerWeekCAD": null,
     "website": "https://langues-en-continu.uqam.ca/en/sejours/",
-    "notes": "Inmersion de verano 3 o 6 semanas. Campus en Quartier Latin / Quartier des Spectacles.",
-    "lastScraped": "2026-03-07"
-  },
-  {
-    "id": "mtl-concordia",
-    "city": "montreal",
-    "name": "Concordia University - Explore French Program",
-    "type": "university",
-    "address": "1455 Blvd de Maisonneuve O, Montreal, QC H3G 1M8",
-    "neighborhood": "Centre-Ville",
-    "lat": 45.4972,
-    "lng": -73.5790,
-    "levels": ["A1", "A2", "B1", "B2"],
-    "modalities": ["presencial"],
-    "intensity": "intensivo",
-    "hoursPerWeek": 18,
-    "durationWeeks": [5],
-    "pricePerWeekCAD": null,
-    "website": "https://www.concordia.ca/summer.html",
-    "notes": "Programa Explore financiado por gobierno federal (gratis para canadienses). Tambien abierto a internacionales.",
-    "lastScraped": "2026-03-07"
+    "notes": "Verano 2026 confirmado: sesiones 3 y 6 semanas. Max 16 estudiantes/clase. 6 niveles.",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "qc-bli",
@@ -243,8 +205,8 @@
     "durationWeeks": [1, 2, 4, 8, 12],
     "pricePerWeekCAD": 440,
     "website": "https://bli.ca/bli-quebec/",
-    "notes": "Sede Quebec de BLI. 4 semanas desde $1,760 CAD. Fundada en 1976, acreditada Languages Canada.",
-    "lastScraped": "2026-03-07"
+    "notes": "Fechas 2026 confirmadas (inicio jul 13). 42 anos experiencia. DELF/DALF prep disponible.",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "qc-edu-inter",
@@ -262,8 +224,8 @@
     "durationWeeks": [1, 2, 4, 8],
     "pricePerWeekCAD": 250,
     "website": "https://learningfrenchinquebec.com/",
-    "notes": "En instalaciones del College Merici. Programa adultos verano jul 13-ago 7. Acreditada Languages Canada.",
-    "lastScraped": "2026-03-07"
+    "notes": "Verano adultos 2026: jul 13-ago 7. En College Merici. Acreditada Languages Canada. Desde $250/sem.",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "qc-ulaval",
@@ -281,46 +243,8 @@
     "durationWeeks": [5],
     "pricePerWeekCAD": null,
     "website": "https://www.flsh.ulaval.ca/en/ecole-langues/academics/french-second-foreign-language/intensive-courses-5-week",
-    "notes": "Sesiones intensivas de 5 semanas primavera/verano. Tarifa inscripcion $99.50 + materiales $150.",
-    "lastScraped": "2026-03-07"
-  },
-  {
-    "id": "qc-garnier",
-    "city": "quebec",
-    "name": "College Saint-Charles-Garnier - En francais a Quebec",
-    "type": "private",
-    "address": "1150 Blvd Rene-Levesque O, Quebec, QC G1S 1V7",
-    "neighborhood": "Montcalm",
-    "lat": 46.8005,
-    "lng": -71.2350,
-    "levels": ["A1", "A2", "B1", "B2"],
-    "modalities": ["presencial"],
-    "intensity": "intensivo",
-    "hoursPerWeek": 20,
-    "durationWeeks": [4, 5],
-    "pricePerWeekCAD": null,
-    "website": "https://garnier-international.com/",
-    "notes": "Programa de verano junio 28 - julio 25/31, 2026. Inmersion 98% en frances.",
-    "lastScraped": "2026-03-07"
-  },
-  {
-    "id": "qc-alliance-francaise",
-    "city": "quebec",
-    "name": "Alliance Francaise de Quebec",
-    "type": "private",
-    "address": "25 Rue d'Auteuil, Quebec, QC G1R 4B9",
-    "neighborhood": "Vieux-Quebec",
-    "lat": 46.8115,
-    "lng": -71.2100,
-    "levels": ["A1", "A2", "B1", "B2", "C1"],
-    "modalities": ["presencial"],
-    "intensity": "semi-intensivo",
-    "hoursPerWeek": 15,
-    "durationWeeks": [2, 4, 8],
-    "pricePerWeekCAD": 250,
-    "website": "https://www.alliance-francaise.ca/en/education/french-immersion-for-adults-in-quebec-city",
-    "notes": "Programa de inmersion para adultos en Quebec City a traves de Alliance Francaise / Edu-inter.",
-    "lastScraped": "2026-03-07"
+    "notes": "Sesiones intensivas 5 semanas primavera/verano 2026. Inscripcion $99.50 + materiales $150.",
+    "lastScraped": "2026-03-08"
   },
   {
     "id": "qc-mcgill-laval",
@@ -338,7 +262,7 @@
     "durationWeeks": [5],
     "pricePerWeekCAD": null,
     "website": "https://www.mcgill.ca/internationalstudents/once-here/summer-french-immersion-program",
-    "notes": "Sesion verano jul 6-ago 8, 2026. 18h/sem + actividades culturales. Alojamiento en residencias Laval.",
-    "lastScraped": "2026-03-07"
+    "notes": "Verano 2026: jul 6-ago 8. 18h/sem + actividades culturales. Alojamiento en residencias Laval.",
+    "lastScraped": "2026-03-08"
   }
 ]

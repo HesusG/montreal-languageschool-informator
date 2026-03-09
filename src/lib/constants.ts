@@ -9,13 +9,13 @@ export const CITY_CONFIG: Record<CityId, {
   montreal: {
     label: 'Montreal',
     center: [45.5017, -73.5673],
-    zoom: 13,
+    zoom: 12,
     bounds: [[45.40, -73.75], [45.62, -73.47]],
   },
   quebec: {
     label: 'Quebec',
     center: [46.8139, -71.2080],
-    zoom: 13,
+    zoom: 12,
     bounds: [[46.74, -71.35], [46.89, -71.10]],
   },
 };
